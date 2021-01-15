@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "CompanyEmployees.Client": {
@@ -29,7 +29,7 @@
               "src/styles.css"
             ],
             "scripts": [
-              "./node_modules/jquery/dist/jquery.min.js", 
+              "./node_modules/jquery/dist/jquery.min.js",
               "./node_modules/bootstrap/dist/js/bootstrap.min.js",
               "./node_modules/jqueryui/jquery-ui.min.js"
             ]
@@ -125,6 +125,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "CompanyEmployees.Client"
+    }
+  },
+  "defaultProject": "CompanyEmployees.Client",
+  "cli": {
+    "analytics": "4c74d6bd-4050-4152-b92e-2f91ba4587c0"
+  }
 }
